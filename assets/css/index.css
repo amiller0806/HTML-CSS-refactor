@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*Element selector*/
+/*Sets background color to light green*/
+
+body {
+    background-color: #d9dcd6;
+}
+
+/*Class selector*/
+/*Selects all elements of the header class, setting padding to 20px, font-family, background to dark blue, and color to white*/
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Selects the h1 elements within the class = "header;" sets header to inline-block & font-size to 48 pixels
+Inline-block: Like the inline element, doesn't start on a new line, but can set width and height values*/
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Selects all SEO elements that are descendants of header elements with the h1 tag, setting the color to light green*/
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Sets measurements, positioning, font-family and font-size for the navigation bar - which you can find in HTML doc-
+nav element contains a class attribute with the value of "header", header contains a div element*/
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*Sets the list style type as none for the unordered list in the div element, assigned the value of "header"
+to none means there are no markers for the items in this list - see  https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*Sets the display of the list elements of the unordered list in nav bar to inline block and sets the margin to 25 px
+on the left side of the navigation: nav element contains a class attribute with the value of "header", header contains a div element.... etc*/
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Sets the color to white and text-decoration to none for all a elements*/
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Sets font size of all p elemnts*/
+
+p {
+    font-size: 16px;
+}
+
+/*Selects elements of the hero-image class, setting the display to flex, the flex-drection to column, and inserting a background-image*/
+.hero-image {
+    display: flex;
+    flex-direction: column;
+    background-image: url("digital-marketing-meeting.jpg");
+   
+}
+
+/*Sets elements in the float-left class float left and the margin area on the right-side 25px*/
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Sets elements in the float-right class float right and the margin area on the right-side 25px*/
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*Sets width 75%, dispaly inline-block, and the margin area on teh left side 20px of elements in the content class*/
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Sets the following properties of the search-engine optimization, online-reputation-mangement, and social-media marketing classes;
+sets the background color to blue and color to white for these classes*/
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Sets the max-height property of the image elements of the search-engine optimization, online-reputation management, and social media marekting classes*/
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    max-height: 200px;
+}
+
+/*Sets the following properties of the h2 element of the search-engine optimization, online-reputation management, and social media marekting classes*/
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Sets the following properties of the benefits class; sets background color to blue*/
+
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Sets the bottom margin to 32 px and color to white of the benefit-lead, benefit-brand, & benefit-cost classes*/
+
+.benefit-lead, .benefit-brand, .benefit-cost  {
+    margin-bottom: 32px;
+    color: #ffffff;  
+}
+
+/*Selects the h3 elements of the benefit-lead, benefit-brand, & benefit-cost classes and sets their bottom margin to 10px and 
+aligns text to center*/
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Sets the image elements of the benefit-lead, benefit-brand, & benefit-cost classes to display as block, their margin as 10px auto, 
+& max-width to 150 px
+By assigning auto to the left and right margins of an element, they take up the available horizontal space 
+in the element’s container equally – so the element gets centered.*/
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/*Sets the following properties of the footer class*/
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Sets the font size of the h2 element of the footer class*/
+
+.footer h2 {
+    font-size: 20px;
+}
