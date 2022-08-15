@@ -1,0 +1,13 @@
+# Title: Change div to semantic element for content element 
+
+Changed div class to  section class for content element for accessibility and readability
+
+# Your branch is up to date with 'origin/main'.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/main'.
+Changes to be committed:
+	file:   horiseon.html
