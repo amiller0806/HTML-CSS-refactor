@@ -141,7 +141,7 @@ sets the background color to blue and color to white for these classes*/
 
 /* Sets the bottom margin to 32 px and color to white of the benefit-lead, benefit-brand, & benefit-cost classes*/
 
-.benefit-lead, .benefit-brand, .benefit-cost  {
+.sidebar  {
     margin-bottom: 32px;
     color: #ffffff;  
 }
@@ -149,7 +149,7 @@ sets the background color to blue and color to white for these classes*/
 /*Selects the h3 elements of the benefit-lead, benefit-brand, & benefit-cost classes and sets their bottom margin to 10px and 
 aligns text to center*/
 
-.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+.sidebar h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -159,7 +159,7 @@ aligns text to center*/
 By assigning auto to the left and right margins of an element, they take up the available horizontal space 
 in the element’s container equally – so the element gets centered.*/
 
-.benefit-lead img, .benefit-brand img, .benefit-cost img {
+.sidebar img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -177,6 +177,6 @@ in the element’s container equally – so the element gets centered.*/
 
 /*Sets the font size of the h2 element of the footer class*/
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
