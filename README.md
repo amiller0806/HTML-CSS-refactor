@@ -35,11 +35,13 @@ THEN I find a concise, descriptive title
 ```
 
 ## Screenshot of deployed application 
-
+![Screenshot of header, nav bar, & hero image](images/header-navbar-hero.jpg)
+![Screenshot of articles, search-engine optimization & online reputation management, & sidebar](images/articles-sidebar.jpg)
+![Screenshot of article  social media marketing, the sidebar, brand awareness & "cost management", & the footer](images/article-sidebar-footer.jpg)
 
 
 ## URL to deployed application
-
+https://amiller0806.github.io/HTML-CSS-refactor/ 
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
